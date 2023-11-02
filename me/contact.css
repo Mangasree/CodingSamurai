@@ -1,0 +1,64 @@
+*{
+    color: #ffffff;
+}
+
+body {
+    font-family: poppins;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact h1 {
+    color: #ffffff;
+  }
+  .contact a {
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  .contact a img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  .quotes {
+    margin-top: 20px;
+  }
+  .quotes p {
+    font-style: italic;
+    color: #ffffff;
+  }
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(212, 179, 33);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(47, 46, 46);
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+span{
+  color: rgb(212, 179, 33);
+  font-size: 50px;
+  font-family: dancing script;
+}
